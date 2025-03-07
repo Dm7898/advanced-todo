@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   TextField,
   Button,
@@ -59,6 +59,7 @@ const TaskInput = () => {
             <ArrowDropDownIcon />
           </Box>
         </Typography>
+        {/* Write task and add here */}
         <TextField
           label="Add A Task"
           variant="standard"
@@ -67,6 +68,7 @@ const TaskInput = () => {
           onChange={(e) => setTaskText(e.target.value)}
           sx={{ color: "#000" }}
         />
+        {/* Priority high,medium,low */}
         <FormControl sx={{ minWidth: "100%" }}>
           <InputLabel>Priority</InputLabel>
           <Select

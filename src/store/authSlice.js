@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const loadAuthFromStorage = () => {
-  return localStorage.getItem("isAuthenticated") || null;
+  return localStorage.getItem("isAuthenticated") || true;
 };
 
 const saveAuthToStorage = (isAuthenticated) => {

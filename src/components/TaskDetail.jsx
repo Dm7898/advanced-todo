@@ -74,7 +74,7 @@ const TaskDetail = ({ task }) => {
           label="Add Notes"
           variant="outlined"
           multiline
-          rows={4} // Set the number of rows
+          rows={4}
           fullWidth
           onChange={(e) => setNotes(e.target.value)}
         />

@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { Card, CardContent, Typography, CircularProgress } from "@mui/material";
+import { useState, useEffect } from "react";
 
 const API_KEY = import.meta.env.VITE_API_URL;
 

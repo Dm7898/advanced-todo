@@ -25,7 +25,7 @@ const taskSlice = createSlice({
   name: "tasks",
   initialState: {
     tasks: loadFromStorage("tasks"),
-    favoriteTasks: loadFromStorage("favoriteTasks"), // Consistent naming
+    favoriteTasks: loadFromStorage("favoriteTasks"),
     completedTasks: loadFromStorage("completedTasks"),
   },
 

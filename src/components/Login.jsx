@@ -1,4 +1,3 @@
-import React from "react";
 import { Button, Box, Typography } from "@mui/material";
 import { useDispatch } from "react-redux";
 import { login } from "../store/authSlice";
