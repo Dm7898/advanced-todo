@@ -4,9 +4,8 @@ import { useSelector } from "react-redux";
 import Navbar from "./components/Navbar";
 import TaskList from "./components/TaskList";
 import Login from "./components/Login";
-import Sidebar from "./components/SideBar";
 import Grid from "@mui/material/Grid2";
-
+import Sidebar from "./components/Sidebar";
 const App = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [listView, setListView] = useState(false);
